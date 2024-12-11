@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,200,1,0&icon_names=add" />
+    <script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+    </script>
+    <script type="module">
+    import '@material/web/all.js';
+    import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+
+    document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+    <title>Message Generator</title>
+</head>
+<body>
+    <header>Message Generator</header>
+    <section>
+        <h3 class="md-typescale-headline-medium">Choose your type</h3>  
+        <md-chip-set>
+        <md-filter-chip label="Job"></md-filter-chip>
+        <md-filter-chip soft-disabled label="Life"></md-filter-chip>
+        <md-filter-chip soft-disabled label="Relationship"></md-filter-chip>
+        </md-chip-set>
+        <md-filled-tonal-button>
+            New Message
+            <span class="material-symbols-outlined">
+                add
+                </span>
+          </md-filled-tonal-button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
