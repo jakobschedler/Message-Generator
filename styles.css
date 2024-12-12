@@ -1,0 +1,88 @@
+h1 {
+    font-family: 'Ubuntu', Sans-Serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #333;
+  }
+
+p {
+    font-family: 'Ubuntu', Sans-Serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+  }
+
+  .wrapper {
+    background-image: linear-gradient(296deg, hsla(0, 95.77%, 62.94%, 1.00), hsla(265.09615384615387, 93.69%, 43.53%, 1.00));
+    display: block;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    min-height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .top {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+
+  .body {
+    background-color: black;
+    pointer-events: auto;
+  }
+
+  .card {
+    min-height: 300px;
+    display: flex;
+    flex-direction: vertical;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .cta {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-family: 'Ubuntu', Sans-Serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #333;
+    color:#fff;
+    border-radius: 8px;
+    border-style: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
