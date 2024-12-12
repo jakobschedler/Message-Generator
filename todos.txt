@@ -1,0 +1,7 @@
+Gerüst für die App in divs
+
+body
+main div (alles drin)
+header (sticky top)
+empty state div (icon, empty text)
+div button (unten anordnen)
